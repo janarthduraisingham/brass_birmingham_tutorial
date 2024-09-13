@@ -14,8 +14,8 @@ st.title("Brass Biringham: How to Play")
 
 
 eliza = st.Page("pages/eliza.py", title="1) Who was Eliza Tinsley", icon=":material/castle:")
-game_board = st.Page("pages/board.py", title="2) The Game Board", icon=":material/castle:")
-player_board = st.Page("pages/setup.py", title="3) The PLayer Boards", icon=":material/castle:")
+game_board = st.Page("pages/game_board.py", title="2) The Game Board", icon=":material/castle:")
+player_board = st.Page("pages/player_board.py", title="3) The PLayer Boards", icon=":material/castle:")
 turns = st.Page("pages/turns.py", title="4) Turns", icon=":material/castle:")
 eras = st.Page("pages/eras.py", title="5) Eras", icon=":material/castle:")
 actions = st.Page("pages/actions.py", title="6) The 6 Actions", icon=":material/castle:")
