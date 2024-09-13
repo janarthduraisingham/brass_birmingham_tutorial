@@ -6,19 +6,19 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("")
+st.header("The 6 Actions")
 
-video_file = open("videos/.mp4", "rb")
+video_file = open("videos/eliza_tinsley.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 
 st.subheader("Next up:")
-if st.button(""):
-    st.switch_page(".py")
+if st.button("Changing Eras"):
+    st.switch_page("pages/changing_eras.py")
     
 st.write("Went on a tangent? Return to:")
 
-if st.button(""):
-    st.switch_page(".py")
+if st.button("Eras"):
+    st.switch_page("pages/eras.py")
     
