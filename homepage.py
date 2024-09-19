@@ -7,7 +7,7 @@ Created on Tue Aug  6 11:51:36 2024
 import streamlit as st
 
 
-st.set_page_config(page_title="Brass: Birmingham Tutorial", page_icon=":european_castle:",
+st.set_page_config(page_title="Brass: Birmingham Tutorial", page_icon=":factory:",
                    initial_sidebar_state='collapsed')
 
 st.title("Brass Birmingham: How to Play")
