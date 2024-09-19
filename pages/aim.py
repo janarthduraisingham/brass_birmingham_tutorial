@@ -20,11 +20,8 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 
 st.subheader("Next up:")
-if st.button("The Player Boards"):
-    st.switch_page("pages/player_board.py")
+if st.button("The Game Board"):
+    st.switch_page("pages/game_board.py")
     
-st.write("Went on a tangent? Return to:")
 
-if st.button("Eras"):
-    st.switch_page("pages/eras.py")
     
