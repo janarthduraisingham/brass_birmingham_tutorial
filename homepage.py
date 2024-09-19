@@ -13,7 +13,7 @@ st.set_page_config(page_title="Brass: Birmingham Tutorial", page_icon=":factory:
 st.title("Brass Birmingham: How to Play")
 st.write("G. Brown, M. Tolman, M. Wallace (2018). Brass: Birmingham [Board Game]. Roxley")
 
-eliza = st.Page("pages/eliza.py", title="1) Who was Eliza Tinsley?", icon=":material/castle:")
+eliza = st.Page("pages/eliza.py", title="1) Who was Eliza Tinsley?", icon=":material/factory:")
 game_board = st.Page("pages/game_board.py", title="2) The Game Board", icon=":material/castle:")
 player_board = st.Page("pages/player_board.py", title="3) The Player Boards", icon=":material/castle:")
 turns = st.Page("pages/turns.py", title="4) Turns", icon=":material/castle:")
