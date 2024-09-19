@@ -11,7 +11,7 @@ st.set_page_config(page_title="Brass: Birmingham Tutorial", page_icon=":european
                    initial_sidebar_state='collapsed')
 
 st.title("Brass Birmingham: How to Play")
-
+st.write("G. Brown, M. Tolman, M. Wallace (2018). Brass: Birmingham [Board Game]. Roxley")
 
 eliza = st.Page("pages/eliza.py", title="1) Who was Eliza Tinsley?", icon=":material/castle:")
 game_board = st.Page("pages/game_board.py", title="2) The Game Board", icon=":material/castle:")
