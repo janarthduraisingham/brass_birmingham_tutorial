@@ -21,8 +21,8 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=48, lo
 
 
 st.subheader("Next up:")
-if st.button("Networks vs Connections"):
-    st.switch_page("pages/network_connections.py")
+if st.button("Changing Eras"):
+    st.switch_page("pages/changing_eras.py")
     
 st.write("Went on a tangent? Return to:")
 

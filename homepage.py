@@ -20,7 +20,7 @@ player_board = st.Page("pages/player_board.py", title="4) The Player Boards", ic
 turns = st.Page("pages/turns.py", title="5) Turns", icon=":material/factory:")
 rounds = st.Page("pages/rounds.py", title="6) Rounds", icon=":material/factory:")
 scoring = st.Page("pages/scoring.py", title="7) Scoring", icon=":material/factory:")
-network_connections = st.Page("pages/network_connections.py", title="8) Networks vs Connections", icon=":material/factory:")
+changing_eras = st.Page("pages/changing_eras.py", title="8) Changing Eras", icon=":material/factory:")
 coal = st.Page("pages/coal.py", title="9) Coal", icon=":material/factory:")
 iron = st.Page("pages/iron.py", title="10) Iron", icon=":material/factory:")
 beer = st.Page("pages/beer.py", title="11) Beer", icon=":material/factory:")
@@ -34,7 +34,7 @@ pg = st.navigation([eliza,
                     turns,
                     rounds,
                     scoring,
-                    network_connections,
+                    changing_eras,
                     coal,
                     iron,
                     beer
