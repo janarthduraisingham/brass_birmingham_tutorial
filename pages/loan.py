@@ -6,7 +6,7 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("The Sell Action")
+st.header("Consuming Beer")
 
 st.subheader("Where to consume Beer from")
 video_file = open("videos/beer.mp4", "rb")

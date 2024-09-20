@@ -27,6 +27,11 @@ coal = st.Page("pages/coal.py", title="11) Consuming Coal", icon=":material/fact
 iron = st.Page("pages/iron.py", title="12) Consuming Iron", icon=":material/factory:")
 beer = st.Page("pages/beer.py", title="13) Consuming Beer", icon=":material/factory:")
 build = st.Page("pages/build.py", title="14) The Build Action", icon=":material/factory:")
+sell = st.Page("pages/sell.py", title="15) The Sell Action", icon=":material/factory:")
+loan = st.Page("pages/loan.py", title="16) The Loan Action", icon=":material/factory:")
+scout = st.Page("pages/scout.py", title="17) The Scout Action", icon=":material/factory:")
+develop = st.Page("pages/develop.py", title="18) The Develop Action", icon=":material/factory:")
+network = st.Page("pages/network.py", title="19) The Network Action", icon=":material/factory:")
 
 
 
@@ -43,7 +48,12 @@ pg = st.navigation([eliza,
                     coal,
                     iron,
                     beer,
-                    build
+                    build,
+                    sell,
+                    loan,
+                    scout,
+                    develop,
+                    network
                 
                     ])
 pg.run()
