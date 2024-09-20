@@ -26,6 +26,7 @@ network_connections = st.Page("pages/network_connections.py", title="10) Network
 coal = st.Page("pages/coal.py", title="11) Consuming Coal", icon=":material/factory:")
 iron = st.Page("pages/iron.py", title="12) Consuming Iron", icon=":material/factory:")
 beer = st.Page("pages/beer.py", title="13) Consuming Beer", icon=":material/factory:")
+build = st.Page("pages/build.py", title="14) The Build Action", icon=":material/factory:")
 
 
 
@@ -41,7 +42,8 @@ pg = st.navigation([eliza,
                     network_connections,
                     coal,
                     iron,
-                    beer
+                    beer,
+                    build
                 
                     ])
 pg.run()
