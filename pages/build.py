@@ -25,6 +25,11 @@ video_file = open("videos/loading_resources.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.subheader("Exceptions for your First Build")
+video_file = open("videos/first_build.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
 
 st.subheader("Next up:")
 if st.button("The Build Action"):
