@@ -14,8 +14,8 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 
 st.subheader("Next up:")
-if st.button("Changing Eras"):
-    st.switch_page("pages/changing_eras.py")
+if st.button("Scoring"):
+    st.switch_page("pages/scoring.py")
     
 st.write("Went on a tangent? Return to:")
 
