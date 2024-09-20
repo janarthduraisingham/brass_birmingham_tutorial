@@ -18,8 +18,8 @@ st.subheader("Next up:")
 if st.button("The Scout Action"):
     st.switch_page("pages/scout.py")
    
-st.write("Went on a tangent? Return to:")
-
-if st.button("Eras"):
-    st.switch_page("pages/eras.py")
+#st.write("Went on a tangent? Return to:")
+#
+#if st.button("Eras"):
+#    st.switch_page("pages/eras.py")
     
