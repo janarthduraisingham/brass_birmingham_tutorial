@@ -20,10 +20,10 @@ video_file = open("videos/costs_requisites.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
-#st.subheader("Adding resources to Tiles")
-#video_file = open("videos/costs_requisites.mp4", "rb")
-#test = video_file.read()
-#st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+st.subheader("Adding resources to Tiles")
+video_file = open("videos/loading_resources.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 
 st.subheader("Next up:")
