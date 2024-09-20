@@ -14,7 +14,7 @@ test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 st.write("Note: if a location has multiple spaces for your industry tile of choice, you must choose the space showing only that industry")
-
+st.write("Note: Locations with no name cannot be build on with Location Wildcards")
 st.subheader("Costs and Requisites")
 video_file = open("videos/costs_requisites.mp4", "rb")
 test = video_file.read()
