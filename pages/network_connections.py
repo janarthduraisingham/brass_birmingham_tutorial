@@ -30,8 +30,8 @@ test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 st.subheader("Next up:")
-if st.button("Beer"):
-    st.switch_page("pages/beer.py")
+if st.button("Consuming Coal"):
+    st.switch_page("pages/coal.py")
     
 st.write("Went on a tangent? Return to:")
 

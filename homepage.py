@@ -23,7 +23,8 @@ scoring = st.Page("pages/scoring.py", title="7) Scoring", icon=":material/factor
 changing_eras = st.Page("pages/changing_eras.py", title="8) Changing Eras", icon=":material/factory:")
 flipping_tiles = st.Page("pages/flipping_tiles.py", title="9) Flipping Industry Tiles", icon=":material/factory:")
 network_connections = st.Page("pages/network_connections.py", title="10) Networks and Connections", icon=":material/factory:")
-beer = st.Page("pages/beer.py", title="11) Beer", icon=":material/factory:")
+coal = st.Page("pages/coal.py", title="11) Consuming Coal", icon=":material/factory:")
+iron = st.Page("pages/iron.py", title="11) Consuming Iron", icon=":material/factory:")
 
 
 
@@ -37,7 +38,8 @@ pg = st.navigation([eliza,
                     changing_eras,
                     flipping_tiles,
                     network_connections,
-                    beer
+                    coal,
+                    iron
                 
                     ])
 pg.run()
