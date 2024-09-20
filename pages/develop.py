@@ -17,7 +17,7 @@ st.write("Note: Tiles with a crossed out light bulb cannot be Developed away")
 
 st.subheader("Next up:")
 if st.button("The Network Action"):
-    st.switch_page("pages/build.py")
+    st.switch_page("pages/network.py")
    
 #st.write("Went on a tangent? Return to:")
 
