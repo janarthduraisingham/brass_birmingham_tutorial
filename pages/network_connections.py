@@ -18,11 +18,16 @@ video_file = open("videos/connected.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
-#st.subheader("Examples")
-#video_file = open("videos/network_connections_examples.mp4", "rb")
-#test = video_file.read()
-#st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+st.subheader("Examples:")
+st.subheader("Network Example")
+video_file = open("videos/network_example.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.subheader("Connected Example")
+video_file = open("videos/connected_example.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
 st.subheader("Next up:")
 if st.button("Beer"):
