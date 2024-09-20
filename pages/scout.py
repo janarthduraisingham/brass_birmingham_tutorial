@@ -6,16 +6,17 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("Consuming Beer")
+st.header("The Scout Action")
 
-st.subheader("Where to consume Beer from")
-video_file = open("videos/beer.mp4", "rb")
+video_file = open("videos/scout.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.write("Note: You may only perform the Scout action if you do not have a wildcard in your hand")
+
 st.subheader("Next up:")
-if st.button("The Build Action"):
-    st.switch_page("pages/build.py")
+if st.button("The Develop Action"):
+    st.switch_page("pages/develop.py")
    
 st.write("Went on a tangent? Return to:")
 
