@@ -6,13 +6,16 @@ Created on Wed Aug  7 00:32:30 2024
 """
 import streamlit as st
 
-st.header("Beer")
+st.header("Consuming Iron")
 
-video_file = open("videos/eliza_tinsley.mp4", "rb")
+st.subheader("Where to consume Iron from + Example")
+video_file = open("videos/iron.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
-
+st.subheader("Next up:")
+if st.button("Consuming Beer"):
+    st.switch_page("pages/beer.py")
    
 st.write("Went on a tangent? Return to:")
 
