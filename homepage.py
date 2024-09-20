@@ -18,7 +18,7 @@ aim = st.Page("pages/aim.py", title="2) Aim of the Game", icon=":material/factor
 game_board = st.Page("pages/game_board.py", title="3) The Game Board", icon=":material/factory:")
 player_board = st.Page("pages/player_board.py", title="4) The Player Boards", icon=":material/factory:")
 turns = st.Page("pages/turns.py", title="5) Turns", icon=":material/factory:")
-actions = st.Page("pages/actions.py", title="6) The 6 Actions", icon=":material/factory:")
+rounds = st.Page("pages/rounds.py", title="6) The 6 Actions", icon=":material/factory:")
 changing_eras = st.Page("pages/changing_eras.py", title="7) Changing Eras", icon=":material/factory:")
 network_connections = st.Page("pages/network_connections.py", title="8) Networks vs Connections", icon=":material/factory:")
 coal = st.Page("pages/coal.py", title="9) Coal", icon=":material/factory:")
@@ -32,7 +32,7 @@ pg = st.navigation([eliza,
                     game_board,
                     player_board,
                     turns,
-                    actions,
+                    rounds,
                     changing_eras,
                     network_connections,
                     coal,

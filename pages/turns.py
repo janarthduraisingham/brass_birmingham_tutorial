@@ -15,7 +15,7 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 st.subheader("Next up:")
 if st.button("Rounds"):
-    st.switch_page("pages/actions.py")
+    st.switch_page("pages/rounds.py")
     
 st.write("Went on a tangent? Return to:")
 
