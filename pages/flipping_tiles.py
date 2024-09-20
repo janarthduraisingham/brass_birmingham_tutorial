@@ -20,8 +20,8 @@ st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, 
 
 
 st.subheader("Next up:")
-if st.button("Coal"):
-    st.switch_page("pages/coal.py")
+if st.button("Networks and Connections"):
+    st.switch_page("pages/network_connections.py")
     
 st.write("Went on a tangent? Return to:")
 
