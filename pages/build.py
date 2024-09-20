@@ -31,10 +31,12 @@ video_file = open("videos/first_build.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.write("Note: in the Canal Era, you may only build one industry tile in one location. In the Railway Era, you may build multiple industry tiles in the same location (though not in the same slot)")
+
 
 st.subheader("Next up:")
-if st.button("The Build Action"):
-    st.switch_page("pages/build.py")
+if st.button("The Sell Action"):
+    st.switch_page("pages/sell.py")
    
 st.write("Went on a tangent? Return to:")
 
