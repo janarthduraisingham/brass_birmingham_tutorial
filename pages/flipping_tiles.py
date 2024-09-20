@@ -23,8 +23,8 @@ st.subheader("Next up:")
 if st.button("Networks and Connections"):
     st.switch_page("pages/network_connections.py")
     
-st.write("Went on a tangent? Return to:")
+#st.write("Went on a tangent? Return to:")
 
-if st.button("Eras"):
-    st.switch_page("pages/eras.py")
+#if st.button("Eras"):
+#    st.switch_page("pages/eras.py")
     

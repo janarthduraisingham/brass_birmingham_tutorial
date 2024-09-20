@@ -17,8 +17,8 @@ st.subheader("Next up:")
 if st.button("Rounds"):
     st.switch_page("pages/rounds.py")
     
-st.write("Went on a tangent? Return to:")
-
-if st.button("Eras"):
-    st.switch_page("pages/eras.py")
+#st.write("Went on a tangent? Return to:")
+#
+#if st.button("Eras"):
+#    st.switch_page("pages/eras.py")
     

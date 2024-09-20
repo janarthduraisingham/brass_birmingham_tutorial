@@ -17,8 +17,8 @@ st.subheader("Next up:")
 if st.button("The Build Action"):
     st.switch_page("pages/build.py")
    
-st.write("Went on a tangent? Return to:")
+#st.write("Went on a tangent? Return to:")
 
-if st.button("Eras"):
-    st.switch_page("pages/eras.py")
+#if st.button("Eras"):
+#    st.switch_page("pages/eras.py")
     
