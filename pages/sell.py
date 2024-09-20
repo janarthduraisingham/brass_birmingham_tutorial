@@ -8,14 +8,23 @@ import streamlit as st
 
 st.header("The Sell Action")
 
-st.subheader("Where to consume Beer from")
-video_file = open("videos/beer.mp4", "rb")
+st.subheader("How to Sell Cotton, Pottery, and Manufactured Goods Tiles")
+video_file = open("videos/sell.mp4", "rb")
 test = video_file.read()
 st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
 
+st.write("Note: you can sell as many tiles as you like in one Sell action")
+
+st.subheader("Merchant Beer")
+video_file = open("videos/merchant_beer.mp4", "rb")
+test = video_file.read()
+st.video(test, format="video/mp4", start_time=0, subtitles=None, end_time=None, loop=False, autoplay=False, muted=False)
+
+st.write("Note: Merchant beer is replenished between Eras")
+
 st.subheader("Next up:")
-if st.button("The Build Action"):
-    st.switch_page("pages/build.py")
+if st.button("The Loan Action"):
+    st.switch_page("pages/loan.py")
    
 st.write("Went on a tangent? Return to:")
 
